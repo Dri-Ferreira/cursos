@@ -19,6 +19,7 @@
   "homepage": "https://github.com/Dri-Ferreira/cursos#readme",
   "dependencies": {
     "@adminjs/express": "^4.0.3",
+    "@adminjs/prisma": "^3.0.1",
     "@adminjs/sequelize": "^2.1.5",
     "@adminjs/upload": "^2.0.2",
     "@prisma/client": "^4.7.1",
