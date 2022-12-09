@@ -13,7 +13,7 @@ datasource db {
 model categories {
   id        String   @id @default(uuid())
   name      String   @db.VarChar(255)
-  position  String
+  position  Int
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 }
